@@ -3,5 +3,6 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiftyCam"
+    name: "SwiftyCam",
+    products: ["SwiftyCam"]
 )

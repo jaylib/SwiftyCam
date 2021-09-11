@@ -4,5 +4,6 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftyCam",
-    products: ["SwiftyCam"]
+    products: [.library(name: "SwiftyCam", targets: ["SwiftyCam"])],
+    targets: [.target("SwiftyCam")]
 )
